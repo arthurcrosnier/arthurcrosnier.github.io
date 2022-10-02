@@ -1,0 +1,141 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.square {
+  background-color: #f9d223;
+  margin: 5px;
+  color: #189498;
+}
+
+.buttonApply {
+  background-color: #36ae7c;
+  margin: 5px;
+}
+
+.buttonDelete {
+  background-color: #eb5353;
+  margin: 5px;
+}
+
+.buttonApply {
+  font-weight: 565;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #36ae7c;
+  padding: 10px 30px;
+  border: solid #36ae7c 5px;
+  box-shadow: none;
+  border-radius: 8px;
+  transition: 349ms;
+  transform: translateY(0);
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.buttonApply:hover {
+  transition: 349ms;
+  padding: 10px 46px;
+  transform: translateY(-2px);
+  background-color: #2ce698;
+  color: #fafafa;
+  border: solid 5px #2ce698;
+}
+
+.buttonDelete {
+  font-weight: 565;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #eb5353;
+  padding: 10px 30px;
+  border: solid #eb5353 5px;
+  box-shadow: none;
+  border-radius: 8px;
+  transition: 349ms;
+  transform: translateY(0);
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.buttonDelete:hover {
+  transition: 349ms;
+  padding: 10px 46px;
+  transform: translateY(-2px);
+  background-color: #ed2b2b;
+  color: #fafafa;
+  border: solid 5px #ed2b2b;
+}
+
+.square {
+  font-weight: 796;
+  font-size: 14px;
+  color: #020212;
+  background-color: #f9d223;
+  border: solid #f9d223 5px;
+  box-shadow: none;
+  border-radius: 8px;
+  transition: 349ms;
+  transform: translateY(0);
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.square:hover {
+  transition: 349ms;
+
+  transform: translateY(-2px);
+  background-color: #f7ca02;
+  color: #020212;
+  border: solid 5px #f7ca02;
+}
+
+.prompt {
+  color: #01fd94;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.result {
+  font-size: 22px;
+}
