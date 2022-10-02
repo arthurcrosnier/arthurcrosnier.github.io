@@ -60,9 +60,9 @@ function Game() {
     if (turnNbr == 0) {
       return "";
     } else if (calculResultState < numberToFound) {
-      return "Too low";
+      return "Is too low";
     } else if (calculResultState > numberToFound) {
-      return "Too high";
+      return " Is Too high";
     } else {
       return (
         "Congratulations ! You WIN !!!! You found the number in " +
